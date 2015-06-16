@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ramdisk/init.qcom.usb.sh:root/init.qcom.usb.sh \
     $(LOCAL_PATH)/ramdisk/init.qcom.sh:root/init.qcom.sh \
     $(LOCAL_PATH)/ramdisk/ueventd.qcom.rc:root/ueventd.qcom.rc
+ 
+ TARGET_RECOVERY_FSTAB = device/oppo/r5/ramdisk/fstab.qcom
+
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
